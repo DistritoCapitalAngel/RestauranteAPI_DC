@@ -13,6 +13,18 @@ class Tables {
                 "ciudad TEXT ," +
                 "contraseña TEXT " +
                 ")"
+        const val categoria ="CREATE TABLE categoria(" +
+                "nombre TEXT" +
+                "descripcion TEXT" +
+                "imagen TEXT" +
+                ")"
+
+        const val producto = "CREATE TABLE producto(" +
+                "nombre TEXT" +
+                "descripcion TEXT" +
+                "precio REAL" +
+                "imagen TEXT" +
+                ")"
     }
 
     object  drop {
