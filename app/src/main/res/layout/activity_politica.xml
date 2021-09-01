@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp">
+    tools:context=".politica">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="503dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -29,20 +31,23 @@
 
             <Button
                 android:id="@+id/button"
+                android:onClick="aceptado"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Aceptar" />
 
             <TextView
-                android:background="@color/white"
                 android:id="@+id/button2"
-                android:textAlignment="center"
-                android:paddingTop="13dp"
+                android:onClick="rechazado"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Rechazar" />
+                android:background="@color/white"
+                android:paddingTop="13dp"
+                android:text="Rechazar"
+                android:textAlignment="center" />
         </LinearLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

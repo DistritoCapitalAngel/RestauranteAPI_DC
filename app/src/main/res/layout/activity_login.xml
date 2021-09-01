@@ -38,11 +38,18 @@
             android:hint="Contraseña"
             android:inputType="textPassword" />
 
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rercordarme" />
+
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login" />
+
     </LinearLayout>
 
     <LinearLayout

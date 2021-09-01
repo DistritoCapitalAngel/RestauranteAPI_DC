@@ -8,9 +8,9 @@ class Tables {
 
     object tables {
         const val usuario = "Create TABLE Usuario(" +
+                "correo TEXT PRIMARY KEY UNIQUE ," +
                 "nombre TEXT ," +
                 "ciudad TEXT ," +
-                "correo TEXT ," +
                 "contraseña TEXT " +
                 ")"
     }

@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/activity_categorias.xml" value="0.221875" />
+        <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/activity_especialidad.xml" value="0.28802083333333334" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/activity_login.xml" value="0.21" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/activity_pedidos.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/activity_politica.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/activity_registro.xml" value="0.13323201621073963" />
+        <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/categorias.xml" value="0.28802083333333334" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/especialidad.xml" value="0.24382716049382716" />
         <entry key="..\:/Users/SENA/AndroidStudioProjects/ApiRestauranteDC/app/src/main/res/layout/polilticas.xml" value="0.28802083333333334" />
       </map>

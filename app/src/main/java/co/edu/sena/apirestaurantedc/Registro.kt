@@ -28,25 +28,53 @@ class Registro : AppCompatActivity() {
 
         BtnR.setOnClickListener{
 
+            //if(intent.getStringExtra("msg") == "true") {
+                val i = DB(this)
+                val db = i.writableDatabase
 
-            val i = DB(this)
+                val value = ContentValues().apply {
+                    put("nombre", name.text.toString())
+                    put("ciudad", ciudad.text.toString())
+                    put("correo", correo.text.toString())
+                    put("contraseña", clave.text.toString())
+                }
 
-            val db =  i.writableDatabase
 
-            val value = ContentValues().apply {
-                put("nombre", name.text.toString())
-                put("ciudad", ciudad.text.toString())
-                put("correo", correo.text.toString())
-                put("contraseña", clave.text.toString())
+                /*
+                val value = ContentValues().apply {
+                    put("nombre", intent.getStringExtra("name"))
+                    put("ciudad", intent.getStringExtra("ciudad"))
+                    put("correo", intent.getStringExtra("correo"))
+                    put("contraseña", intent.getStringExtra("clave"))
+                }
+                */
+
+
+                val insert = db?.insert("usuario", null, value)
+
+                if (insert != null) {
+                    if (insert.toInt() != -1) {
+                        toast("Ya puedes entrar")
+                    } else {
+                        toast("Posiblemente el usuario existe ")
+                    }
+                }
+                //toast("${name.text.toString()}${ciudad.text}${correo.text}${clave.text}")
+                //toast("Puede Ingresar ${value.get("nombre")}" /*${insert}"*/)
+        /*
+            }else{//END IF
+                val politica = Intent(this, politica::class.java).apply {
+                    putExtra("name", name.text.toString())
+                    putExtra("ciudad",ciudad.text.toString())
+                    putExtra("correo",correo.text.toString())
+                    putExtra("clave",clave.text.toString())
+                }
+                startActivity(politica)
             }
-            /*
-            */
-            //val insert = db.insert("usuario", null, value)
-
-            //toast("${name.text.toString()}${ciudad.text}${correo.text}${clave.text}")
-            toast(value.getAsString("contraseña"))
+         */
         }
     }
+
 
     fun showLogin(view: android.view.View) {
         val showL = Intent(this, Login::class.java)
