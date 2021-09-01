@@ -1,5 +1,6 @@
 package co.edu.sena.apirestaurantedc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -10,5 +11,10 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    }
+
+    fun login(view: android.view.View) {
+        val showL = Intent(this, Login::class.java)
+        startActivity(showL)
     }
 }
