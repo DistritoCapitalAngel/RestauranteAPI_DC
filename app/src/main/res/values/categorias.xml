@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="categorias">
-        <item>Desayunos
-        En esta categoría encontrará los desayunos</item>
-        <item>Almuerzos
-        En esta categoría encontrará los almuerzos</item>
-        <item>Cena
-        En esta categoría encontrará los Cenas</item>
-        <item>Bebidas
-        En esta categoría encontrará las bebidas</item>
     </string-array>
 </resources>
