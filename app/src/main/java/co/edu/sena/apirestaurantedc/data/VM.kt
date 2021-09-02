@@ -11,7 +11,9 @@ import kotlinx.coroutines.launch
 class VM :ViewModel(){
     val _status = MutableLiveData<String>()
     val status:LiveData<String> = _status
-
+/**
+*...
+**/
     init {
         getLogo()
     }

@@ -22,13 +22,12 @@
             android:layout_height="193dp"
             android:layout_gravity="center"
             android:textAlignment="center"
-            app:srcCompat="@mipmap/especialidad" />
+            />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bandeja montañer"
             android:textAlignment="center"
             android:textSize="30dp" />
 
@@ -36,14 +35,12 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Con frijol, carne asada, carne molida o chicharrón, huevo frito, papa, yuca, ensalada, tajada de maduro, arroz y arepa"
             android:textSize="18dp" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="$21400"
             android:textAlignment="textEnd"
             android:textSize="18dp" />
 
